@@ -13,7 +13,7 @@ def compute(string_a, string_b):
     :return: Returns the Hamming distance of the two strings
     """
 
-    # Ensure strings are same length of less than 1kbp.
+    # Ensure strings are same length.
     length = len(string_a)
     if length != len(string_b):
         raise ValueError('Input strings must contain the same number of '
